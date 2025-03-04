@@ -9,7 +9,8 @@ body {
 }
 .nav-item .nav-link{
     color:aliceblue !important;
-    
+    font-size:120%;
+
 }
 .nav-link:hover {
     color: black !important;
@@ -17,9 +18,12 @@ body {
     border: 2px;
 }
 .navbar-brand{
-    font-style:italic;
+    /* font-style:italic; */
     font-weight:bolder;
+    font-family: 'Poppins', sans-serif; 
+    color:aliceblue;
 }
+
 .name {
     color: white;
     display: inline-block;
@@ -35,6 +39,8 @@ justify-content: left;
 }
 .btn {
     transition: all 0.3s ease-in-out;
+    font-size:120%;
+
 }
 .btn:hover {
     background-color: rgba(62, 147, 252, 0.7);
@@ -81,4 +87,25 @@ justify-content: left;
         height: 200px;
         transition: transform 0.3s ease-in-out; 
     }
+   
+    .table {
+        font-size: 14px; 
+    }
+    .table-responsive {
+        font-size: 70% !important;
+        size:70% !important; 
+    }
+    
 }
+#education {
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
