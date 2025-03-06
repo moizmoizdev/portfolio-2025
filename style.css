@@ -12,6 +12,7 @@ body {
     font-size:120%;
 
 }
+
 .nav-link:hover {
     color: black !important;
     font-weight: bold;
@@ -50,14 +51,16 @@ justify-content: left;
 .hero {
     margin-top: 5%  !important;
     text-align: center;
+    padding-bottom: 7%;
 }
 .profile-img {
-    margin-right: 20px;
+    margin-right: 50px;
     width: 250px;
     height: 250px;
     transition: transform 0.3s ease-in-out; 
-     border: 7px solid rgba(133, 176, 230, 0.7);
-     border-radius: 50%;
+    border: 7px solid rgba(133, 176, 230, 0.7);
+    border-radius: 50%;
+
 }
 .name:hover{
     transition: transform 1s ease-in-out;
@@ -97,9 +100,19 @@ justify-content: left;
         font-size: 70% !important;
         size:70% !important; 
     }
+    .submit-button {
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+      }
     
 }
+.form-label {
+    color: rgb(234, 238, 255);
+  }
+  
 #education {
+    margin-top: 10%;
     padding: 20px 0;
     background-color: rgba(255, 255, 255, 0.06) !important;
 }
@@ -116,9 +129,13 @@ justify-content: left;
 transform: scale(1.08);
 
 }
-
+#submitAlert{
+    justify-self: center;
+    width: 50% !important;
+}
 .table {
     border-radius: 10px;
     overflow: hidden;
 }
+
 
