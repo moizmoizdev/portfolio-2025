@@ -176,7 +176,7 @@ transform: scale(1.08);
     .navbar-toggler {
         border: none !important;
         color: white;
-        background-color: transparent (255, 255, 255, 0.1); /* Light background */
+        background-color: transparent (255, 255, 255, 0.1); 
         padding: 8px 10px;
         border-radius: 5px;
         
