@@ -15,8 +15,10 @@ Welcome to my personal **portfolio website**! 🎉 This website showcases my **s
 -----------------------------------------------------
 
 ## 📸 Screenshots 
-![Desktop Screenshot]("assets/ss-desktop.jpg")
-!(Mobile Screenshot)
+![Desktop Screenshot](assets/ss-desktop.jpg)
+
+### 📱 Mobile View
+![Mobile Screenshot](assets/ss-mobile.jpg)
 ---
 
 ## 🔗 Live Demo  
